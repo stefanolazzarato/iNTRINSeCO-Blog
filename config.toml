@@ -1,4 +1,4 @@
-baseURL = "http://www.intrinseco.it"
+baseURL = "https://stefanolazzarato.github.io"
 languageCode = "en-us"
 title = "iNTRINSeCO Blog"
 theme = "beautifulhugo"
