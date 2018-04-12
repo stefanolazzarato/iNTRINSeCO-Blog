@@ -1,12 +1,12 @@
 baseURL = "https://stefanolazzarato.github.io"
 languageCode = "en-us"
-title = "iNTRINSeCO Blog"
+title = "iNTRINSeCO"
 theme = "beautifulhugo"
 
 metaDataFormat = "yaml"
 
 [params]
-  subtitle = "computer science and electronic prototyping"
+  subtitle = "Think, plan, create"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
