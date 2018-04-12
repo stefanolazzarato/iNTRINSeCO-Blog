@@ -3,13 +3,14 @@ languageCode = "en-us"
 title = "iNTRINSeCO"
 theme = "beautifulhugo"
 
+#defaultContentLanguage = "it"
+
 metaDataFormat = "yaml"
 
 [params]
   subtitle = "Think, plan, create"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
   commit = false
   rss = true
   comments = false
