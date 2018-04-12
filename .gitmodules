@@ -1,3 +1,6 @@
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
 	url = https://github.com/stefanolazzarato/beautifulhugo
+[submodule "public"]
+	path = public
+	url = https://github.com/stefanolazzarato/stefanolazzarato.github.io.git
