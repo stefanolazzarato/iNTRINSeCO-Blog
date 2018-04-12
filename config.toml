@@ -2,3 +2,21 @@ baseURL = "http://www.intrinseco.it"
 languageCode = "en-us"
 title = "iNTRINSeCO Blog"
 theme = "beautifulhugo"
+
+metaDataFormat = "yaml"
+
+[params]
+  subtitle = "computer science and electronic prototyping"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  useHLJS = true
+
+[author]
+  name = "Stefano Lazzarato"
+  website = "http://www.intrinseco.it"
+  github = "stefanolazzarato"
