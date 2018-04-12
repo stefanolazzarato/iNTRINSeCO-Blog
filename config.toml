@@ -20,3 +20,9 @@ metaDataFormat = "yaml"
   name = "Stefano Lazzarato"
   website = "http://www.intrinseco.it"
   github = "stefanolazzarato"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/post"
+  weight = 1
+
