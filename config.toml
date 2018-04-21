@@ -1,21 +1,43 @@
 baseURL = "https://stefanolazzarato.github.io"
 languageCode = "en-us"
 title = "iNTRINSeCO"
-theme = "beautifulhugo"
+theme = "initio"
 
 #defaultContentLanguage = "it"
 
 metaDataFormat = "yaml"
 
 [params]
+  name = "iNTRINSeCO"
+  description = "Think, plan, create"
   subtitle = "Think, plan, create"
-  logo = "img/avatar-icon.png"
+  email = "info@intrinseco.it"
+  phone = "ND"
+  address = "ND"
+  year = 2017
+  background = ""
   favicon = "img/favicon.ico"
+
+  DateForm = "January 2, 2006"
+   
+  logo = "img/avatar-icon.png"
+
   commit = false
   rss = true
   comments = false
   readingTime = true
   useHLJS = true
+
+  showSubheader = true
+  showServices = false
+  showRecentWorks = true
+  showDownload = false
+  showClients = false
+
+  footerEnableContact = true
+  footerEnableFollowme = true
+  footerEnableTextWidget = true
+  footerEnableFormWidget = true
 
 [author]
   name = "Stefano Lazzarato"
@@ -23,7 +45,32 @@ metaDataFormat = "yaml"
   github = "stefanolazzarato"
 
 [[menu.main]]
-  name = "Blog"
-  url = "/post"
-  weight = 1
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
 
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/lazzaste"
+    icon = "fa-linkedin-square"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/stefanolazzarato"
+    icon = "fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:info@intrinseco.it"
+    icon = "fa-envelope"
+    footer = true
+    sharethis = true
+    network = "email"

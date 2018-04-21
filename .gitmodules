@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/stefanolazzarato/stefanolazzarato.github.io.git
+[submodule "themes/initio"]
+	path = themes/initio
+	url = https://github.com/stefanolazzarato/hugo-initio.git
